@@ -186,7 +186,7 @@ export const projects = [
     title: "ToDo List to add your task",
     des: "Organize your tasks effortlessly with this to-do list app. Keep track of your priorities and boost your productivity.",
     img: "/todo.png",
-    iconLists: ["/reactjs.png", "/reduxjs.png", "/materialUi.png", "/css-3.png"],
+    iconLists: ["/reactjs.png", "/redux.png", "/materialUi.png", "/css-3.png"],
     link: "todo-redux-app-rho.vercel.app",
   },
   {
