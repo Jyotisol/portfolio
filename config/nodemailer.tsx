@@ -24,3 +24,4 @@ export const sendMail = async () => {
     console.error("Error sending email:", error);
   }
 };
+
