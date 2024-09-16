@@ -5,9 +5,19 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Skills", link: "#Skills" },
   { name: "Other", link: "#Achivements"},
-  { name: 'Resume', link: "#Resume"}
+  // { name: 'Resume', link: "#Resume"}
+  { name: 'Resume', link: "https://drive.google.com/uc?export=download&id=1jPHiUxaudxcYli5ZFq3KW0VRJc4_DATr" }
 
 ];
+const downloadResume = () => {
+  const resumeLink = "https://drive.google.com/uc?export=download&id=1jPHiUxaudxcYli5ZFq3KW0VRJc4_DATr";
+  const link = document.createElement('a');
+  link.href = resumeLink;
+  link.download = 'Jyoti_Solanki_resume.zip'; // Optional: Set the default filename
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
 export const gridItems = [
   {
