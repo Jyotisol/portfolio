@@ -34,6 +34,7 @@ const generateEmailContent = (data: ContactMessage) => {
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {
     const data: ContactMessage = req.body;
+    console.log(req.body)
     if (!data || !data.name || !data.email || !data.subject || !data.message) {
       return res.status(400).send({ message: "Bad request" });
     }
@@ -48,7 +49,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       return res.status(200).json({ success: true });
     } catch (err) {
       console.error('Error sending email:', err);
-      return res.status(500).json({ message: 'Error sending email' });
+      return res.status(400).json({ message: 'Error sending email' });
     }
   }
   return res.status(405).json({ message: "Method not allowed" });
