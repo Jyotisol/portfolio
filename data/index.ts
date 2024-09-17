@@ -215,14 +215,14 @@ export const projects = [
     iconLists: ["/reactjs.png", "/redux.png", "/materialui.png", "/api.png"],
     link: "/ui.aiimg.com",
   },
-  {
-    id: 4,
-    title: "Podcast service for AI world",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.png",
-    iconLists: ["/next.png", "/tail.png", "/ts.png", "/three.png", "/gsap.png"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 4,
+  //   title: "Podcast service for AI world",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.png",
+  //   iconLists: ["/next.png", "/tail.png", "/ts.png", "/three.png", "/gsap.png"],
+  //   link: "/ui.apple.com",
+  // },
 ];
 
 export const testimonials = [
