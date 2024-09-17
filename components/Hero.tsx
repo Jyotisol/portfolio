@@ -31,7 +31,7 @@ const Hero = () => {
         words="Transforming Concepts into Seamless User Experiences"
         />
         <p className="font-Dancing_Script text-center md:tracking-wider custom-sm:text-[1rem] md:text-lg lg:text-2xl mb-4">
-            Hi I&apos;m <span className="text-orange-500 font-bold uppercase">Jyoti</span>, a Full Stack Develope.
+            Hi I&apos;m <span className="text-orange-500 font-bold uppercase">Jyoti</span>, a Full Stack Developer.
         </p>
         <a href="#about">
           <MagicButton
