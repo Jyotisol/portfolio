@@ -196,7 +196,7 @@ export const projects = [
     title: "ToDo List to add your task",
     des: "Organize your tasks effortlessly with this to-do list app. Keep track of your priorities and boost your productivity.",
     img: "/todo.png",
-    iconLists: ["/reactjs.png", "/redux.png", "/materialUi.png", "/css-3.png"],
+    iconLists: ["/reactjs.png", "/redux.png", "/materialui.png", "/css-3.png"],
     link: "todo-redux-app-rho.vercel.app",
   },
   {
@@ -213,7 +213,7 @@ export const projects = [
     des:  "A REAL Podcast-as-a-Service app with AI-driven recommendations and a seamless subscription system, built using the latest tech stack.",
     img: "/podcast.png",
     iconLists: ["/reactjs.png", "/redux.png", "/materialui.png", "/api.png"],
-    link: "/ui.aiimg.com",
+    link: "podcast-pearl.vercel.app",
   },
   // {
   //   id: 4,

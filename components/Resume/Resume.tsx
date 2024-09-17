@@ -1,6 +1,3 @@
-
-
-
 import React from 'react';
 import { navItems } from '@/data'; // Update the path accordingly
 
