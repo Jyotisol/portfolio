@@ -237,7 +237,7 @@ export const testimonials = [
     title: "Certification",
   },
   {
-    img:"public/Certificaton2.png",
+    img:"/certi-2.png",
     name: "Web Development",
     title: "CourseVita"
   },
