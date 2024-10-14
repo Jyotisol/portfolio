@@ -236,11 +236,11 @@ export const testimonials = [
     name: "Prodigi ",
     title: "Certification",
   },
-  // {
-  //   img:"./web development.jpg",
-  //   name: "Web Development",
-  //   title: "Udemy",
-  // },
+  {
+    img:"public/Certificaton.png",
+    name: "Web Development",
+    title: "CourseVita"
+  },
 ];
 
 export const companies = [
