@@ -10,7 +10,7 @@ export const navItems = [
 
 ];
 const downloadResume = () => {
-  const resumeLink = "https://drive.google.com/uc?export=download&id=1jPHiUxaudxcYli5ZFq3KW0VRJc4_DATr";
+  const resumeLink = "https://drive.google.com/file/d/1Gbn6-WlacJg3I-Zn81gBCJqh9aMpQDVQ/view?usp=sharing";
   const link = document.createElement('a');
   link.href = resumeLink;
   link.download = 'Jyoti_Solanki_resume.zip'; // Optional: Set the default filename
