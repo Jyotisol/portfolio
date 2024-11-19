@@ -6,7 +6,7 @@ export const navItems = [
   { name: "Skills", link: "#Skills" },
   { name: "Other", link: "#Achivements"},
   // { name: 'Resume', link: "#Resume"}
-  { name: 'Resume', link: "https://drive.google.com/uc?export=download&id=1jPHiUxaudxcYli5ZFq3KW0VRJc4_DATr" }
+  { name: 'Resume', link: "https://drive.google.com/file/d/1Gbn6-WlacJg3I-Zn81gBCJqh9aMpQDVQ/view?usp=sharing" }
 
 ];
 const downloadResume = () => {
