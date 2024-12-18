@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-'use client'
+
 
 import {motion, useInView} from 'framer-motion'
 import { MySkills } from '@/data';
@@ -23,13 +23,14 @@ const Skill: React.FC<SkillProps> = ({ img, x, y }) => {
       transition={{ duration: 1 }}
       viewport={{once:true}}
     >
+      
       <img src={img} alt="Skill" className="w-8 h-9 custom-xs:w-5 custom-xs:h-5" />
     </motion.div>
   )
 }
 
 const skillSet = [
-  {skill: 'HTML & CSS'},
+  {skill: 'SCO '},
   {skill: 'JavaScript'},
   {skill: 'ReactJS'},
   {skill: 'TailwindCSS'},

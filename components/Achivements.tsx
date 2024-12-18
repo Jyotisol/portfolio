@@ -1,7 +1,7 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 import { testimonials } from '@/data'
-import OtherSkills from './OtherSkills'
+// import OtherSkills from './OtherSkills'
 
 const Achivements = () => {
   return (
