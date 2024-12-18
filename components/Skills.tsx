@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-
+'use client'
 
 import {motion, useInView} from 'framer-motion'
 import { MySkills } from '@/data';
