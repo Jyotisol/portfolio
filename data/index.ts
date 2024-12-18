@@ -215,14 +215,14 @@ export const projects = [
     iconLists: ["/reactjs.png", "/redux.png", "/materialui.png", "/api.png"],
     link: "podcast-pearl.vercel.app",
   },
-  // {
-  //   id: 4,
-  //   title: "Podcast service for AI world",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.png",
-  //   iconLists: ["/next.png", "/tail.png", "/ts.png", "/three.png", "/gsap.png"],
-  //   link: "/ui.apple.com",
-  // },
+  {
+    id: 4,
+    title: "Task Manager service for AI world",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/TaskManagerPhoto.png",
+    iconLists: ["/node-js.png", "/reactjs.png", "/materialui.png", "/mongo.png", "/api.png"],
+    link: "https://work-tracker-eight.vercel.app/",
+  },
 ];
 
 export const testimonials = [
