@@ -212,7 +212,7 @@ export const projects = [
     title: "Podcast service for AI world",
     des:  "A REAL Podcast-as-a-Service app with AI-driven recommendations and a seamless subscription system, built using the latest tech stack.",
     img: "/podcast.png",
-    iconLists: ["/reactjs.png", "/redux.png", "/materialui.png", "/api.png"],
+    iconLists: ["/reactjs.png", "/redux.png", "public/materialui.png", "/api.png"],
     link: "podcast-pearl.vercel.app",
   },
   {
@@ -220,7 +220,7 @@ export const projects = [
     title: "Task Manager service for AI world",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/TaskManagerPhoto.png",
-    iconLists: ["/node-js.png", "/reactjs.png", "/materialui.png", "/mongo.png", "/api.png"],
+    iconLists: ["/node-js.png", "/reactjs.png", "public/materialui.png", "/mongo.png", "/api.png"],
     link: "https://work-tracker-eight.vercel.app/",
   },
 ];
