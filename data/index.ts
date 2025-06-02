@@ -6,11 +6,11 @@ export const navItems = [
   { name: "Skills", link: "#Skills" },
   { name: "Other", link: "#Achivements"},
   // { name: 'Resume', link: "#Resume"}
-  { name: 'Resume', link: "https://drive.google.com/file/d/1Gbn6-WlacJg3I-Zn81gBCJqh9aMpQDVQ/view?usp=sharing" }
+  { name: 'Resume', link: "https://drive.google.com/file/d/1cwl1PTqaBXFn7oWoclthfu623BeY5ZG4/view?usp=sharing" }
 
 ];
 const downloadResume = () => {
-  const resumeLink = "https://drive.google.com/file/d/1Gbn6-WlacJg3I-Zn81gBCJqh9aMpQDVQ/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1cwl1PTqaBXFn7oWoclthfu623BeY5ZG4/view?usp=sharing";
   const link = document.createElement('a');
   link.href = resumeLink;
   link.download = 'Jyoti_Solanki_resume.zip'; // Optional: Set the default filename
@@ -186,6 +186,12 @@ export const MySkills = [
     img: "/css-3.png",
     className:"",
 },
+{
+    id: 19,
+    title: 'Typescript',
+    img: "/ts.png",
+    className:"",
+},
 
 
 ];
@@ -212,7 +218,7 @@ export const projects = [
     title: "Podcast service for AI world",
     des:  "A REAL Podcast-as-a-Service app with AI-driven recommendations and a seamless subscription system, built using the latest tech stack.",
     img: "/podcast.png",
-    iconLists: ["/reactjs.png", "/redux.png", "public/materialui.png", "/api.png"],
+    iconLists: ["/reactjs.png", "/redux.png", "/materialui.png", "/api.png"],
     link: "podcast-pearl.vercel.app",
   },
   {
@@ -220,17 +226,25 @@ export const projects = [
     title: "Task Manager service for AI world",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/TaskManagerPhoto.png",
-    iconLists: ["/node-js.png", "/reactjs.png", "public/materialui.png", "/mongo.png", "/api.png"],
+    iconLists: ["/node-js.png", "/reactjs.png", "/materialui.png", "/mongo.png", "/api.png"],
     link: "https://work-tracker-eight.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Task Manager",
+    des: "A comprehensive task management app that helps you organize and prioritize your tasks efficiently.",
+    img: "/pointOfSale.png",
+    iconLists: ["/node-js.png", "/reactjs.png", "/tailwind-css.png", "/mongo.png", "/api.png"],
+    link: "https://point-of-sale-fawn.vercel.app/",
   },
 ];
 
 export const testimonials = [
-  // {
-  //   img:"/MERN STACK.png",
-  //   name: "MERN STACK",
-  //   title: "AccioJob",
-  // },
+  {
+    img:"/webseeder.png",
+    name: "Frontend Developer",
+    title: "Web seeder",
+  },
   {
     img:"/certification.png",
     name: "Prodigi ",
