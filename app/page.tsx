@@ -1,4 +1,4 @@
-
+"use client"
 import Achivements from "@/components/Achivements";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
