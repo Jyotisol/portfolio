@@ -4,7 +4,6 @@
 import {motion, useInView} from 'framer-motion'
 import { MySkills } from '@/data';
 import { useEffect, useRef, useState } from 'react';
-import { div } from 'three/examples/jsm/nodes/Nodes.js';
 
 interface SkillProps {
   img: string;

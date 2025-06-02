@@ -33,7 +33,7 @@
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.166.1",
-    "three-globe": "^2.31.1"
+    "three-globe": "^2.42.8"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",
